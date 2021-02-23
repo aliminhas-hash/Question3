@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package q3;
+
+/**
+ *
+ * @author Family
+ */
+public class Q3 {
+
+  
+
+ public static void main(String[] args) {
+        String s1= "Ali";
+        String s2= "Murtaza";
+        String temp="";
+        System.out.println("Printing S1 and S2 ");
+        System.out.println(s1+" "+s2);
+        System.out.println("Printing S1 and S2 after replace ");
+        temp = s1;
+        s1= s2;
+        s2= temp;
+        System.out.println(s1+" "+s2);
+        
+        
+    }
+    
+}
